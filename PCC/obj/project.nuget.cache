@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "g1XogBuUE6TLQJedEEx6bJPIaNMqr7WyQQDXGKeKIlccUSh6A6zQTjFkXl8nGUn19C0JLRf9FJk7kZMcuSm7cw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\86176\\OneDrive\\Study\\代码\\信息系统开发课程\\SoulRoommate7.9最终\\PCC\\PCC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\86176\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\86176\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

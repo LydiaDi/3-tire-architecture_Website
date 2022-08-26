@@ -1,0 +1,314 @@
+﻿* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.index-top{
+    font-size:120px;
+    width:200px;
+    margin:0 auto;
+    letter-spacing:10px;
+    color:#60C1D4;
+    text-shadow:6px 6px 6px black;
+}
+.index-middle {
+    font-size: 15px;
+    width: 180px;
+    margin: -10px auto;
+    letter-spacing: 2px;
+    color: #939391;
+}
+#Label3{
+    margin-left:14px;
+}
+body {
+    /*background-color: pink;*/
+    margin: 0;
+    padding: 0;
+    background-image: url(../Img/icon/background.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.login {
+    position: relative;
+    height: 435px;
+    width: 420px;
+    margin: 34px auto;
+    background-color: #F0F8FF;
+    opacity: 0.6;
+}
+
+.contain {
+    position: relative;
+    height: 530px;
+    width: 450px;
+    margin: 0px auto;
+}
+
+
+.c {
+    width: 400px;
+    height: 25px;
+    font-size: 17px;
+    height: 40px;
+    margin-bottom:40px;
+    margin-top:0px;
+    margin-left:25px;
+    /*border-bottom: 2px solid rgb(218,221,221);*/
+}
+
+.c ul li {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 8px;
+    letter-spacing: 6px;
+}
+
+#ul1 li {
+    cursor: pointer;
+    padding-bottom: 6px;
+}
+
+.cb {
+    clear: both;
+}
+
+.txtBox {
+    width: 250px;
+    height: 33px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+.txtBox img {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-top: 4px;
+}
+
+.txtBox #txtUser, #txtEmail, #txtCode, #txtUser2, #txtEmail2, #txtCode2, #txtUser3, #txtEmail3, #txtCode3 {
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    outline: none;
+    border-style: none;
+    padding: 4px 10px;
+}
+
+.txtBox2 {
+    width: 250px;
+    height: 33px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin-top: 15px;
+    background-color: white;
+    margin-left: 25px;
+    float: left;
+    border-radius: 3px;
+}
+
+.txtBox2 img {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-top: 4px;
+}
+
+.txtBox2 #txtCode, #txtCode2, #txtCode3 {
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    outline: none;
+    border-style: none;
+    padding: 4px 10px;
+}
+
+.sendCode {
+    width: 80px;
+    height: 33px;
+    margin-top: 15px;
+    margin-left: 0px;
+    float: left;
+}
+
+#btnSendCode {
+    width: 130px;
+    height: 40px;
+    color: #568F9A;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    /*border-radius: 3px;*/
+    cursor: pointer;
+}
+
+.rememberEmail {
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+.rememberEmail #cbRememberEmail, #cbRememberEmail2, #cbRememberEmail3 {
+    float: left;
+    background: white;
+    width: 15px;
+    height: 15px;
+}
+
+.rememberEmail span {
+    float: left;
+    color: #000;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.error {
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 0px;
+}
+
+#hlError {
+    font-size: 16px;
+    color: #568F9A;
+    cursor: pointer;
+}
+
+.txtBox3 {
+    width: 390px;
+    height: 33px;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+#btnLogin, #btnLogin2, #btnLogin3 {
+    width: 93%;
+    height: 40px;
+    color: white;
+    font-size: 21px;
+    letter-spacing: 15px;
+    background: #60C1D4;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.txtBox4 {
+    width: 390px;
+    height: 10px;
+    margin-top: 0px;
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+#lbMsgUser, #lbMsgEmail, #lbMsgCode, #lbMsgUser2, #lbMsgEmail2, #lbMsgCode2, #lbMsgUser3, #lbMsgEmail3, #lbMsgCode3 {
+    font-size: 13px;
+    color: rgb(237,70,27);
+}
+
+#lbMsgSendCode {
+    font-size: 13px;
+    color: rgb(237,70,27);
+    margin-left: 220px;
+}
+
+.txtBox6 {
+    width: 290px;
+    height: 23px;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+    font-size: 16px;
+    margin-bottom: 19px;
+}
+
+#ul3 li {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 30px;
+    padding-right: 13px;
+    margin-top: 10px;
+}
+
+#ul3 li {
+    cursor: pointer;
+    padding-bottom: 0px;
+}
+
+.txtBox5 {
+    width: 390px;
+    height: 10px;
+    margin-top: 35px;
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+#lbMsgLogin, #lbMsgLogin2,, #lbMsgLogin3 {
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.txtBox7 {
+    width: 390px;
+    height: 33px;
+    margin-top: 60px;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+#Menu1 {
+    font-size: 14px;
+}
+
+.selectLoginWay {
+    position: relative;
+    margin-top: -88px;
+    margin-left: 22px;
+}
+
+.sendCode2 {
+    width: 100px;
+    height: 33px;
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+}
+
+#code {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background: lightblue;
+    font-size: 35px;
+    letter-spacing: 5px;
+    padding-left: 0px;
+    cursor: pointer; 
+}
+
+#code3 {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background: lightblue;
+    font-size: 35px;
+    letter-spacing: 5px;
+    padding-left: 0px;
+    cursor: pointer;
+}

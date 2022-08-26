@@ -1,0 +1,589 @@
+﻿* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.student-top {
+    height: 75px;
+    width: 100%;
+    background: white;
+    box-shadow:#F6F6F6 4px 4px;
+    position:fixed;
+}
+.student-top-left {
+    width: 150px;
+    float: left;
+    height: 75px;
+    line-height: 75px;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #60C1D4;
+    margin-left: 20px;
+    margin-right:40px;
+    margin-top:-8px;
+    text-shadow: 4px 4px 4px black;
+}
+.student-top-middle {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+.student-top-right {
+    width: 330px;
+    float: right;
+    height: 75px;
+    line-height: 75px;
+    color: #9ba4b6;
+    font-size: 26px;
+    margin-right:100px;
+}
+.student-top-right-img{
+    float:left;
+    margin-right:30px;
+    margin-top:6px;
+    padding-left:-100px;
+    position:fixed;
+}
+.stduent-top-text {
+    float: left;
+}
+.student-top-right-arrow {
+    float: left;
+    margin-left:10px;
+    margin-top: -4px;
+}
+.b1 {
+    width: 700px;
+}
+.b1 ul {
+    width: 100%;
+}
+.b1 ul li {
+    height: 75px;
+    line-height: 75px;
+    padding: 0 35px;
+    float: left;
+    list-style-position: inside;
+    font-size: 26px;
+    cursor: pointer;
+    color:#9ba4b6;
+}
+.student-content{
+    background-color:#f6f6f6;
+}
+.c1 {
+    margin-left: 180px;
+    padding-top: 95px;
+    font-size: 22px;
+    color: rgb(63,79,94);
+}
+.contain {
+    height:620px;
+    width: 1350px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: #F6F6F6 4px 4px;
+}
+.contain2 {
+    min-height: 620px;
+    max-height: 620px;
+    width: 1350px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: #F6F6F6 4px 4px;
+    overflow-y: scroll;
+}
+#student-top-right-msgCount {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 13px;
+    /*background-color: pink;*/
+    position: fixed;
+    margin-left: 34px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+#lbMsgCount {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 13px;
+    background-color: #60c1d4;
+    position: fixed;
+    margin-left: -11px;
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+.manage-main2-step1-1 {
+    width: 450px;
+    min-height: 190px;
+    margin: 5px auto;
+    font-size: 18px;
+    padding-top: 5px;
+    border: 5px solid #F6F6F6;
+    /*   border-bottom: 4px solid #F6F6F6;*/
+}
+.manage-main4-step1-1 {
+    width: 900px;
+    min-height: 190px;
+    margin: 30px auto;
+    font-size: 18px;
+    padding-top: 55px;
+   /* border: 5px solid #F6F6F6;*/
+    /*   border-bottom: 4px solid #F6F6F6;*/
+}
+.main4-down{
+    margin-top:-100px;
+    margin-left:800px;
+}
+.manage-main2-step1-1-title {
+    width: 450px;
+    height: 60px;
+    margin: 5px auto;
+    font-size: 18px;
+    padding-top: 5px;
+    /*border: 5px solid #F6F6F6;*/
+}
+.manage-main2-step1 {
+    /*width: 300px;*/
+    text-align: left;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    /* border: 2px solid #F6F6F6;*/
+}
+
+.cb {
+    clear: both;
+}
+
+body {
+}
+
+label
+.top {
+    height: 70px;
+    width: 100%;
+    background: rgb(28,177,119);
+    position: relative;
+}
+
+#logo {
+    margin-top: 8px;
+    margin-left: 60px;
+    float: left;
+    margin-right: 9px;
+}
+
+.font {
+    font-size: 32px;
+    padding-top: 12px;
+    letter-spacing: 3px;
+    float: left;
+}
+
+.a1 {
+    height: 30px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 40px;
+}
+
+.a2 {
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+    letter-spacing: 2px;
+    float: right;
+    cursor: pointer;
+}
+
+.a3 {
+    float: right;
+    margin-right: 80px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+#a4 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid #F6F6F6;
+    border-radius: 4px;
+    margin-top: 53px;
+    margin-right: 0px;
+    margin-left: 180px;
+    display: none;/*
+    box-shadow: #F6F6F6 4px 4px;*/
+}
+
+#a4 .a5 {
+    width: 100px;
+    margin: 0px auto;
+}
+
+#a4 ul {
+    width: 100%;
+}
+#a4 ul li {
+    height: 35px;
+    padding-left: 10px;
+    line-height: 35px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.navigation {
+    height: 58px;
+    width: 100%;
+    background: rgb(63,79,94);
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+.label {
+    height: 600px;
+    width: 100%;
+    background: rgb(245,247,249);
+}
+
+.c2 {
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    /*background-color: blue;*/
+}
+
+.question {
+    width: 255px;
+    height: 200px;
+    margin-right: 20px; /*
+    background-color: palevioletred;*/
+    float: left;
+}
+
+.d2 {
+    width: 300px;
+    height: 470px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding-top: 30px;
+    /*background-color: red;*/
+}
+.main5-send{
+    width: 400px;
+    height: 470px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding-top: 30px;
+    /*background-color: red;*/
+}
+.right2-exchage {
+    width: 430px;
+    height: 470px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.right2-set {
+    width: 500px;
+    height: 470px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.d1 {
+    padding-left: 17px;
+    border: 1px solid grey;
+    padding-right: 10px;
+    width: 180px;
+    margin-left: 10px;
+}
+
+.cOne {
+    padding-left: 17px;
+    padding-right: 10px;
+    width: 180px;
+    margin-left: 10px;
+    border: none;
+}
+
+.c3 {
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    /*background-color: blue;*/
+}
+
+.cButton {
+    height: 40px;
+    line-height:40px;
+    width: 70px;
+    background-color:#60c1d4;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding-left: 26px;
+    margin-top: 0px;
+    margin-left:40px;
+    position: absolute;
+}
+#clbNew2 {
+    height: 39px;
+    width: 90px;
+    line-height: 39px;
+    background-color: #60c1d4;
+    font-size: 20px;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin-left: -23px;
+}
+#clbBack2 {
+    height: 40px;
+    line-height:40px;
+    width: 73px;
+    background-color: #60c1d4;
+    border-radius: 3px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin-top: -7px;
+    margin-left: -18px;
+    position: absolute;
+    float: left;
+}
+#Button10 {
+    height: 40px;
+    line-height: 40px;
+    width: 90px;
+    background-color: #60c1d4;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding-left: 6px;
+    margin-top: 30px;
+    margin-left: 150px;
+    position: absolute;
+}
+#Button2{
+    height: 40px;
+    line-height: 40px;
+    width: 90px;
+    background-color: #60c1d4;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding-left: 6px;
+    margin-top: 30px;
+    margin-left: 150px;
+    position: absolute;
+}
+#lbMsgUpdatePwd {
+    margin-top: 50px;
+    margin-left: 270px;
+    position: absolute;
+}
+#clbNew {
+}
+
+#cList {
+    height: 100px;
+    width: 1300px; /*
+    background-color: #DCD8D9;*/
+    margin-top: 25px;
+    position: absolute;
+}
+
+#cNew{
+    width: 300px;
+    /*background-color: blue;*/
+    width: 500px;
+    height: 470px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+#TextBox2, #TextBox1, #DropDownList1, #tbOldPwd, #tbNewPwd, #tbNewPwd2, #txtCode, #txtCode, #txtEmail, #tbSetPwd2, #tbSetPwd{
+    font-size: 18px;
+}
+#btnSendCode {
+    width:90px;
+    height: 40px;
+    color: #568F9A;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    /*border-radius: 3px;*/
+    cursor: pointer;
+}
+.cButton2 {
+    height: 30px;
+    width: 55px;
+    background-color: #60c1d4;
+    border-radius: 3px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-left: 16px;
+    margin-top: 20px;
+    margin-left: 110px;
+    position: absolute;
+    float: left;
+}
+
+#btnConfirm,#Button12 {
+    height: 38px;
+    width: 70px;
+    background-color: #60c1d4;
+    border-radius: 3px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-left: 6px;
+    margin-top: 20px;
+    margin-left: 240px;
+    position: absolute;
+    float: left;
+}
+#Button11, #Button1 {
+    height: 38px;
+    width: 140px;
+    background-color: #60c1d4;
+    border-radius: 3px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-left: 6px;
+    margin-top: 20px;
+    margin-left: 80px;
+    position: absolute;
+    float: left;
+}
+
+.main1-ul1 {
+    width: 1220px;
+    margin: 70px auto 0px auto;
+    background-color: #BAB2B5;
+    clear: both;
+}
+
+.main1-ul1 ul {
+    height: 38px;
+    width: 100%;
+}
+
+.main1-ul1 ul li {
+    /*width: 95px;*/
+    padding: 6px 3px;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.main1-ul2 {
+    width: 1220px;
+    margin: 0px auto;
+}
+
+.main1-ul2 ul {
+    height: 28px;
+    width: 100%;
+}
+
+.main1-ul2 ul li {
+    /* width: 105px;*/
+    padding: 3px 3px;
+    float: left;
+    line-height: 25px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.main-tbox {
+    padding-left: 17px;
+    border-radius: 3px;
+    padding-right: 10px;
+    width: 180px;
+    margin-left: 10px;
+}
+.main5-ul1 {
+    width: 900px;
+    margin: 0px auto 0px auto;
+    background-color: #BAB2B5;
+    clear: both;
+}
+
+.main5-ul1 ul {
+    height: 38px;
+    width: 100%;
+}
+
+.main5-ul1 ul li {
+    padding: 6px 3px;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.main5-ul2 {
+    width: 900px;
+    margin: 0px auto;
+}
+
+.main5-ul2 ul {
+    height: 28px;
+    width: 100%;
+}
+
+.main5-ul2 ul li {
+    padding: 3px 3px;
+    float: left;
+    line-height: 25px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+}
